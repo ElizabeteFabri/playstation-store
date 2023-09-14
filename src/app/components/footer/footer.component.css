@@ -1,0 +1,61 @@
+/* Estilos de base para o footer */
+footer {
+  background: #003697;
+  font-family: 'Roboto', sans-serif;
+
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilos para o contêiner do footer */
+.footer__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem;
+
+}
+
+/* Estilos para a seção de links */
+.footer-links__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 3.2rem 0;
+
+}
+
+.footer-links__container ul {
+  list-style: none;
+}
+
+.footer-links__container ul li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.footer-links__container ul li a {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Estilos para o rodapé */
+.copyright, .developed {
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Estilos para o link "Desenvolvido por" */
+.developed {
+  margin-top: 1.4rem;
+}
+
+.developed a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.developed a:hover {
+  opacity: 0.8;
+}
